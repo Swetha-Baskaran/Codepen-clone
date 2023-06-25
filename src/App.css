@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.CodeMirror {
+	color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CodeMirror-gutters {
+	background: #1d1e22 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.CodeMirror-scroll {
+	background: #1d1e22;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-template-horizontal {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.App-template-vertical {
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.editors-template1 {
+	display: flex;
+	width: 100vw;
+}
+.editors-template2 { 
+	/* vertical */
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	/* height: 100vh; */
+	overflow-y: auto;
+}
+
+.controlled-editor-horizontal {
+	width: 33.3333%;
+}
+
+.controlled-editor-vertical {
+	width: 100%;
+	height: 33.3333%;
+}
+
+/* output screen */
+.output-screen-horizontal {
+	height: 100%;
+}
+
+.output-screen-vertical {
+	width: 50%;
 }
