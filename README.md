@@ -1,3 +1,7 @@
+![image](https://github.com/Swetha-Baskaran/Codepen-clone/assets/74134426/2d174aa5-fbd1-4bc6-b2bb-1dd4091f0939)
+![image](https://github.com/Swetha-Baskaran/Codepen-clone/assets/74134426/cf3011dc-e24f-4da1-b09b-d5e41c8b0418)
+![image](https://github.com/Swetha-Baskaran/Codepen-clone/assets/74134426/944ee132-533d-4b0e-9a21-b90c8e42f65b)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
